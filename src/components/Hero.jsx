@@ -9,7 +9,7 @@ function Hero() {
           src={profileImage}
           alt="Profile"
         />
-        <h1>Hi I'm Franklin</h1>
+        <h1>Hi, I'm Vivian</h1>
 
         <div className="content-text">
           <h2>Building digital</h2>
@@ -21,7 +21,7 @@ function Hero() {
           </p>
         </div>
         <a
-          href="https://github.com/CommunityPro/portfolio-html"
+          href="https://www.linkedin.com/in/vivianclarissahchinoda/"
           className="btn btn-secondary"
           target="_blank"
           rel="noopener noreferrer"

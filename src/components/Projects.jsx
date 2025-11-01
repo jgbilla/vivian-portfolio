@@ -20,6 +20,18 @@ function Projects() {
         link: 'https://pkgcenter.mit.edu/2024/03/19/social-impact-internships-vivian-chinoda-25/',
         image: '/src/assets/pkg.png'
       },
+      {
+        id: 4,
+        title: 'Some of the work I have done as a Red Hat Product Management Intern',
+        link: 'https://developers.redhat.com/author/vivian-chinoda',
+        image: '/src/assets/news/red_hat.png'
+      },
+      {
+        id: 5,
+        title: 'Dignifying Menstruation in Nepal: A Bathroom Pilot',
+        link: 'https://d-lab.mit.edu/academics/student-projects-presentations/dignifying-menstruation-nepal-bathroom-pilot',
+        image: '/src/assets/news/period_poverty.webp'
+      },
  
   ]
 
