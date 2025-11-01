@@ -1,0 +1,32 @@
+{
+  "name": "vivian-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "<p align=\"center\"> <img src=\"https://user-images.githubusercontent.com/62628408/149734737-cd534c5b-03d9-4ad3-af77-70d6784d98cc.png\" align=\"center\" width=\"50%\"> </p>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgbilla/vivian-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgbilla/vivian-portfolio/issues"
+  },
+  "homepage": "https://github.com/jgbilla/vivian-portfolio#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^4.5.0"
+  }
+}
