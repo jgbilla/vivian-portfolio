@@ -1,0 +1,23 @@
+.sectionLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-light);
+  margin-bottom: var(--space-lg);
+}
+
+.index {
+  /* inherits */
+}
+
+.divider {
+  opacity: 0.4;
+}
+
+.label {
+  /* inherits */
+}

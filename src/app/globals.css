@@ -1,0 +1,109 @@
+/* ===== Reset ===== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+}
+
+/* ===== CSS Variables ===== */
+:root {
+  --bg-primary: #f8f8f8;
+  --bg-secondary: #ffffff;
+  --bg-dark: #151515;
+  --text-primary: #4f4f4f;
+  --text-heading: #222222;
+  --text-light: #999999;
+  --text-white: #ffffff;
+  --accent: #4f4f4f;
+  --border: #e0e0e0;
+
+  --font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-h1: 52px;
+  --font-size-h2: 32px;
+  --font-size-h3: 20px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --line-height-tight: 1.1;
+  --line-height-normal: 1.5;
+  --letter-spacing-tight: -0.5px;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+  --space-xxl: 120px;
+
+  --max-width: 1200px;
+  --navbar-height: 72px;
+
+  --transition-fast: 0.25s ease;
+  --transition-medium: 0.5s ease;
+  --transition-slow: 0.65s ease;
+
+  --backdrop-blur: blur(40px);
+}
+
+/* ===== Scroll Animation Base ===== */
+.sal-animate {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* ===== Selection ===== */
+::selection {
+  background-color: var(--text-heading);
+  color: var(--text-white);
+}
+
+/* ===== Responsive Typography ===== */
+@media (max-width: 768px) {
+  :root {
+    --font-size-h1: 34px;
+    --font-size-h2: 26px;
+    --font-size-h3: 18px;
+    --navbar-height: 64px;
+  }
+}

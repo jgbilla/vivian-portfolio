@@ -1,0 +1,67 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: var(--navbar-height) var(--space-lg) var(--space-xxl);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+  padding-top: var(--space-xl);
+}
+
+.label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-light);
+  margin-bottom: var(--space-lg);
+}
+
+.name {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-heading);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+.role {
+  font-size: var(--font-size-h3);
+  color: var(--text-light);
+  margin-top: var(--space-sm);
+}
+
+.bio {
+  margin-top: var(--space-xl);
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.bio p {
+  font-size: var(--font-size-base);
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+
+.placeholder a {
+  color: var(--text-heading);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.placeholder a:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: var(--navbar-height) var(--space-md) var(--space-xl);
+    align-items: flex-start;
+  }
+}

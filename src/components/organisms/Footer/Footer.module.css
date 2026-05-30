@@ -1,0 +1,37 @@
+.footer {
+  background-color: var(--bg-dark);
+  padding: var(--space-xl) 0;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  font-size: var(--font-size-sm);
+  color: var(--text-light);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+/* Invert social icons in dark footer */
+.social :global(img) {
+  filter: invert(1);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: var(--space-md);
+    text-align: center;
+  }
+}
